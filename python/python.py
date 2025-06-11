@@ -24,3 +24,34 @@ print("4.division of",a,"and",b,"is",division)
 print("thankyou :)")
 
 """
+
+"""
+# typcasting
+
+string ="12"
+number= 2
+
+string_number=int(string)
+add1=number+string_number
+print("addition is:",add1)  # explicit typecasting
+print("type of this variable",type(add1))
+
+# add=string+number
+# print("addition",add)
+
+b=2.9
+c=3
+d=b+c
+print("addition is:",d)  # implicit typecasting(python intrpreter automatically convert it according to requirement)
+print("type of this variable",type(d))
+
+"""
+
+"""
+# taking user input in python
+a = input("enter number: ")
+b = input("enter number: ")
+print(a+b)             # it assume all the variable as string
+print(int(a)+int(b))   # there we need to initialize datatype of our variable- "int"
+
+"""
