@@ -55,3 +55,16 @@ print(a+b)             # it assume all the variable as string
 print(int(a)+int(b))   # there we need to initialize datatype of our variable- "int"
 
 """
+
+"""
+# string
+fruits="mango"
+print(fruits[1:4])
+print(fruits[:5])
+print(fruits[0:-3])  # print(fruits[0:len(fruits)-3])
+print(fruits[-3:-1])
+
+na="harry"
+print(na[-4:-2])
+
+"""
