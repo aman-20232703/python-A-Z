@@ -104,3 +104,69 @@ print(c.swapcase())
 
 """
 
+# conditional statements
+"""#else-if
+a=int(input("enter your age: "))
+
+if(a>18):
+    print("ready")
+else:
+    print("not ready")
+
+#elif
+a=int(input("enter your age: "))
+if(a>18):
+    print("yes")
+elif(a<18):
+    print("no")
+else:
+    print("none")
+print("thankyou")
+    
+#nested-if
+a=int(input("enter your age: "))
+
+if(a<18):
+    print("no")
+elif(a>18):
+    if(a==20):
+        print("yes")
+    elif(a<30):
+        print("none")
+    else:
+        print("ok")
+print("thankyou")
+
+
+import time
+tm=time.strftime("%H:%M:%S")
+print(tm)
+tm=time.strftime("%H")
+print(tm)
+tm=time.strftime("%M")
+print(tm)
+tm=time.strftime("%S")
+print(tm)
+
+a=int(input("select standard time zone: "))
+if(a<11):
+    print("good morning")
+elif(a>11 and a<14 ):
+    print("good afternoon")
+else:
+    print("good evening")
+    
+
+x=int(input())
+
+match x:
+    case 0:
+        print("x is zero")
+    case 4:
+        print("case is 4")
+    case _ if x!=90:
+        print(x,"is not 90")
+    case _ if x!=80:
+        print(x,"is not 80")
+    case _:
+        print(x)
