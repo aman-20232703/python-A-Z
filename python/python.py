@@ -68,3 +68,39 @@ na="harry"
 print(na[-4:-2])
 
 """
+
+"""
+#string method
+a ="aMAn kUmAr is gooD bOy00"
+print(a.lower())
+print(a.upper())
+print(a.rstrip("!"))
+print(a.replace("aMAn","aman"))
+print(a.split(" "))
+print(a.capitalize()) #
+print(len(a))
+print(len(a.center(8)))
+print(a.count("aMAn"))
+print(a.endswith("kUmAr"))
+print(a.endswith("mA",7,9))
+print(a.startswith("aMAn"))
+print(a.find("is")) #return - sign also
+print(a.index("A"))  # sure to return , not return - sign
+
+d="ramanujan college"
+print(d.isalnum())
+print(d.isalpha())
+print(d.islower())
+print(d.isupper())
+
+b ="aMAn kUmAr is GooD bOy00"
+print(b.isprintable())
+print(b.isspace())   # " "=whitespace
+print(b.istitle())
+print(a.title())
+
+c="aman kumar"
+print(c.swapcase())
+
+"""
+
