@@ -210,3 +210,18 @@ while(t>=0):
     print(t)
     t-=1
 """
+"""
+# break statement enable a programme to skip over a part of code, it also terminate the loop.
+for i in range(12):
+    if(i==10):
+        break
+    print("5*",i+1,"=",5*(i+1))
+print("outside of loop")
+
+# continue terminate the iteration and jump into the next iteration
+for i in range(12):
+    if(i==10):
+        print("skip it")
+        continue
+    print("5*",i+1,"=",5*(i+1))
+    """
