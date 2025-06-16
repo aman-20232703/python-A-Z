@@ -225,3 +225,17 @@ for i in range(12):
         continue
     print("5*",i+1,"=",5*(i+1))
     """
+
+"""
+# function is a lock of code that perform specific task whether it is called, is help reduce same line code uses at diffrent palce by calling function 
+def greatervalue(a,b):
+
+    if(b>a):
+        print("b greater")
+    else:
+        print("not grater")
+    # a=4
+    # b=6
+greatervalue(3,5)
+"""
+    
