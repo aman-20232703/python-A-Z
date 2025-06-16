@@ -195,3 +195,18 @@ list=["aman","putu","suraj","vikash"]
 for i in list:
     print(i)
 """
+
+"""
+# while loops(print only if condition satisfied)
+# count=0
+# while(count<=5):
+#     print(count)
+#     count+=1
+# else:
+#     print("finish")
+    
+t=5
+while(t>=0):
+    print(t)
+    t-=1
+"""
