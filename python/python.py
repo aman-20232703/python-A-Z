@@ -104,8 +104,10 @@ print(c.swapcase())
 
 """
 
+"""
 # conditional statements
-"""#else-if
+
+#else-if
 a=int(input("enter your age: "))
 
 if(a>18):
@@ -170,3 +172,26 @@ match x:
         print(x,"is not 80")
     case _:
         print(x)
+
+"""
+
+
+"""
+# for loops(iterate over a sequence of iterable or objects)
+k="aman kumar"
+for i in k:
+    print(i)
+    
+for i in range(5):
+    print(i)
+    
+for i in range(3,8):
+    print(i)
+    
+for i in range (1,100,7):
+    print(i)
+    
+list=["aman","putu","suraj","vikash"]
+for i in list:
+    print(i)
+"""
