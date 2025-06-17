@@ -238,4 +238,14 @@ def greatervalue(a,b):
     # b=6
 greatervalue(3,5)
 """
-    
+
+
+"""
+# argumnets(default,keyword,variable,required)
+#default
+def sum(a=4,b=5):
+    print("sum is: ",a+b)
+sum() # by default from above function
+
+"""
+
