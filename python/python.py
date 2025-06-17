@@ -326,3 +326,21 @@ print(l)
 
 """
 
+"""
+#tuples(similar to list but only difference is that it is immutable, denoted by(....))
+tup=(1,2,3,4,5,6)
+print(tup,type(tup))
+print(len(tup))
+print(tup[4])
+print(tup[:5])
+print(tup[len(tup)-4:5])
+
+if 4 in tup:
+    print("yes")
+else:
+    print("no")
+    
+tup=(i for i in range(10) if i%2!=0)
+print(tup)
+
+"""
