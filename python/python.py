@@ -304,3 +304,25 @@ print(list)
 
 """
 
+"""
+#methods in list
+l=[2,3,4,5,1,6]
+# l.append(55)
+# l.insert(4,100)
+# l.extend([33,56,48])
+
+# print(l.sort() )#ascending order
+# print(l.sort(reverse=True) )#descending order
+# print(l.reverse())
+
+print(l.index(5))
+print(l.count(5))
+print(l.copy())
+
+k=[22,88,34,78]
+m=l+k
+print(m)
+print(l)
+
+"""
+
