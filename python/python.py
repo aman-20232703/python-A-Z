@@ -277,11 +277,30 @@ print("sum is:",c)
 """
 
 """
+#list(seperated by comaas and square barcket, store multiple data in same variable, mutable, can have diffrent data types, denoted by [...])
+marks=[22,4,34,56,23,67]
+print(marks)
+print(type(marks))
+print(marks[4])
+print(marks[-3])  #print(marks[len(marks)-3])=3 index  ,print(marks[6-3]),print(marks[2])
 
+if 4 in marks:
+    print("yes")
+else:
+    print("no")
+    
+if "ma" in "aman":
+    print("yes")
+else:
+    print("no")
+    
+print(marks[:])
+print(marks[1:])
+print(marks[1:6:2])
 
-
-
-
+#list comprehension
+list=[i for i in range(20) if i%2==0]
+print(list)
 
 """
 
