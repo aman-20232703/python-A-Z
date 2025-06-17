@@ -249,3 +249,39 @@ sum() # by default from above function
 
 """
 
+"""
+#keyword
+def sum(a=3,b=5):
+    print("sum is: ",a+b)
+sum(b=3,a=22) #position not matter
+
+#required
+def sum(a,b=5):
+    print("sum is: ",a+b)
+sum(3)  #required a value to run the function
+
+#variable
+def avg(*numbers):
+    sum=0
+    for i in numbers:
+        sum+=i
+    print("avg is: ",sum/len(numbers))
+avg(1,2,3,4,5,6,7,8,9,10) #variables as a tuple
+
+#return
+def sum(a,b):
+    return a+b
+c=sum(2,5)   # c value store result of return
+print("sum is:",c)
+
+"""
+
+"""
+
+
+
+
+
+
+"""
+
