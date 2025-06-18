@@ -365,3 +365,16 @@ print(n.index(7,3,6))
 print(len(n))
 
 """
+
+"""
+import time
+hour=int(input("enter your timing-: "))
+# a=int(input("select standard time zone: "))
+if(hour>0 and hour<12):
+    print("good morning")
+elif(hour>11 and hour<17 ):
+    print("good afternoon")
+elif(hour>17 and hour<24):
+    print("good evening")
+    
+"""
