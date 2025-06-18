@@ -344,3 +344,24 @@ tup=(i for i in range(10) if i%2!=0)
 print(tup)
 
 """
+
+"""
+# methods in tuple
+n=("aman","raj","aditya","sahil")
+p=list(n)  #if we try to change tuple then first convert it into list
+print(p)
+p.append("vikash")
+print(p)
+p.pop(2)
+print(p)
+n=tuple(p)   # after doing changing in tuples convert again it into list
+print(n)
+
+#methods in tuple
+n=(2,3,6,7,2,8,3,9)
+print(n.count(2))
+print(n.index(8))
+print(n.index(7,3,6))
+print(len(n))
+
+"""
