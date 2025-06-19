@@ -378,3 +378,24 @@ elif(hour>17 and hour<24):
     print("good evening")
     
 """
+
+"""
+#f-string
+letter="my name is {1} and i am from {0}"   #using indexing
+name="aman kumar"
+country="India"
+print(letter.format(country,name))
+print(f"my name is {name} iam from {country}") # using f-string
+
+txt="for only {price:.2f} dollars!"  #using 2 decimal places
+print(txt.format(price=49.99999))
+price=49.99999
+print(f"for only {price:.2f} dollars!")
+
+#doc-string(string litrals that appear right after the defination of a function,method,class or method) & PEP-8
+def square(n):
+    '''take a nunmber n, return the square of n'''  # always come below or above function,method,class
+    print(n**2)
+square(5)
+print(square.__doc__)  # accessing docstring using this doc attribute
+"""
