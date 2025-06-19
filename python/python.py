@@ -1,4 +1,5 @@
-""" # calculator
+"""
+# calculator
 
 a = int(input("enter 1st number: ", ))
 b = int(input("enter 2nd number: ", ))
@@ -44,7 +45,6 @@ c=3
 d=b+c
 print("addition is:",d)  # implicit typecasting(python intrpreter automatically convert it according to requirement)
 print("type of this variable",type(d))
-
 """
 
 """
@@ -53,7 +53,6 @@ a = input("enter number: ")
 b = input("enter number: ")
 print(a+b)             # it assume all the variable as string
 print(int(a)+int(b))   # there we need to initialize datatype of our variable- "int"
-
 """
 
 """
@@ -66,7 +65,6 @@ print(fruits[-3:-1])
 
 na="harry"
 print(na[-4:-2])
-
 """
 
 """
@@ -101,7 +99,6 @@ print(a.title())
 
 c="aman kumar"
 print(c.swapcase())
-
 """
 
 """
@@ -172,7 +169,6 @@ match x:
         print(x,"is not 80")
     case _:
         print(x)
-
 """
 
 
@@ -210,6 +206,7 @@ while(t>=0):
     print(t)
     t-=1
 """
+
 """
 # break statement enable a programme to skip over a part of code, it also terminate the loop.
 for i in range(12):
@@ -224,7 +221,7 @@ for i in range(12):
         print("skip it")
         continue
     print("5*",i+1,"=",5*(i+1))
-    """
+"""
 
 """
 # function is a lock of code that perform specific task whether it is called, is help reduce same line code uses at diffrent palce by calling function 
@@ -246,7 +243,6 @@ greatervalue(3,5)
 def sum(a=4,b=5):
     print("sum is: ",a+b)
 sum() # by default from above function
-
 """
 
 """
@@ -273,7 +269,6 @@ def sum(a,b):
     return a+b
 c=sum(2,5)   # c value store result of return
 print("sum is:",c)
-
 """
 
 """
@@ -301,7 +296,6 @@ print(marks[1:6:2])
 #list comprehension
 list=[i for i in range(20) if i%2==0]
 print(list)
-
 """
 
 """
@@ -323,7 +317,6 @@ k=[22,88,34,78]
 m=l+k
 print(m)
 print(l)
-
 """
 
 """
@@ -342,7 +335,6 @@ else:
     
 tup=(i for i in range(10) if i%2!=0)
 print(tup)
-
 """
 
 """
@@ -363,7 +355,6 @@ print(n.count(2))
 print(n.index(8))
 print(n.index(7,3,6))
 print(len(n))
-
 """
 
 """
@@ -376,7 +367,6 @@ elif(hour>11 and hour<17 ):
     print("good afternoon")
 elif(hour>17 and hour<24):
     print("good evening")
-    
 """
 
 """
@@ -447,5 +437,4 @@ Although never is often better than *right* now.
 If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
-
 """
