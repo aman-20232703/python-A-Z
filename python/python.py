@@ -521,3 +521,33 @@ dict={
 }
 print(dict)
 """
+
+"""
+info={"name":"aman", "age":20, "course":"B.voc"}
+print(info)
+print(info["name"])
+# print(info["name2"]) #if not exist throw error
+print(info.get("name2")) #if not exist print none
+print(info.get("name")) #if exist print
+print(info["age"])
+
+print(info.keys())  #printing keys
+for key in info.keys(): #1st method for printing values
+    print(info[key])
+print(info.values()) #2nd method for printing values
+
+print(info.items())  #accessing 'key : value' of dict....
+print(dict.items())
+
+#methods in dict...
+ep1={2703:"aman",2708:"brijesh",2731:"rupesh",2741:"suraj",2745:"vikash",2778:"sahil"}
+ep2={2749:"ashutosh",2729:"ritik"}
+
+ep1.update(ep2)
+# ep1.clear()
+# ep1.pop(2741)
+# del ep1[2745]
+ep1.popitem()  # delete last
+print(ep1)
+
+"""
