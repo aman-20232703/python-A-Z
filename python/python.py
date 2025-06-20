@@ -438,3 +438,37 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!
 """
+
+
+"""
+# set is a collection of well defined object, it store unordered, multiple and unique items in {} bracket, unchangable, contain different datatypes,
+s={1,2,3,4,2,5,4,7,8,9,5}
+print(s)
+print(type(s))
+
+a={}
+print(type(a))  #it gives empty dict...
+b=set()
+print(type(b))  # it gives empty set
+
+q={"Aman",3,77,"Kumar","@",0,12}
+for i in q:
+    print(i)   # unordered
+    
+#methods in set
+s1={1,2,5,6}
+s2={3,6,7}
+
+print(s1.union(s2))
+s1.update(s2)
+print(s1,s2)
+
+states={"bihar","up","jharkhand","mp","rajsthan","haryana"}
+states2={"maharastra","karnataka","tamilnadu","bihar","mp"}
+# states3=states.union(states2)
+# print(states,states2,states3)
+
+# states3=(states.intersection(states2))
+# states.intersection_update(states2)
+# print(states)
+"""
