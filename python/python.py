@@ -490,3 +490,21 @@ print(states2) # it is not a method , it delete set entirly
 z={1,2,3,4,6,7}
 print(z.clear())
 """
+
+"""
+print(states.symmetric_difference(states2))  # not common
+print(states.symmetric_difference_update(states2))
+print(states.difference(states2)) # delete common
+print(states.isdisjoint(states2))  #intersection zero
+print(states.issuperset(states2))  # all the elements of states2 lie within states
+print(states2.issubset(states))  #vice-versa
+# states.remove("bihar")
+states.discard("bihar")  # same work as remove but it does not throw error
+print(states)
+print(states2.pop())  # delete random value anywhere from set
+del states
+print(states2) # it is not a method , it delete set entirly
+
+z={1,2,3,4,6,7}
+print(z.clear())
+"""
