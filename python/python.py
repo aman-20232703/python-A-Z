@@ -508,3 +508,16 @@ print(states2) # it is not a method , it delete set entirly
 z={1,2,3,4,6,7}
 print(z.clear())
 """
+
+"""
+# dictionaries(store key value items in key : value pairs tha are seperated by , and denoted {}, unordered)
+dict={
+    2703:"aman",
+    2708:"brijesh",
+    2731:"rupesh",
+    2741:"suraj",
+    2745:"vikash",
+    2778:"sahil"
+}
+print(dict)
+"""
