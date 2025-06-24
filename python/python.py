@@ -549,5 +549,19 @@ ep1.update(ep2)
 # del ep1[2745]
 ep1.popitem()  # delete last
 print(ep1)
+"""
 
+"""
+#for-else loop
+for i in range(9):
+    print(i)
+else:                # loop khtm hogya so execute else
+    print("sorry no i")
+
+for i in range(9):  # loop break ho gya hai so not execute else
+    print(i)
+    if i==4:
+        break
+else:
+    print("sorry no i")
 """
