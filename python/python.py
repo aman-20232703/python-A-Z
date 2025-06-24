@@ -565,3 +565,27 @@ for i in range(9):  # loop break ho gya hai so not execute else
 else:
     print("sorry no i")
 """
+
+"""
+# excepion handling[try:except](process of responding to unitended and unexpected events when a computer programme runs,it help to mainatain flow of code)
+# from logging import exception
+n=input("enter value: ")
+print(f"multiplication table of {n} is: ")
+try:
+    for i in range (1,11):
+        print(f"{int(n)}X{i}={int(n)}*{i}")
+except:
+    print("invalid input:")
+    
+print("imp")
+print("last...")
+
+try:
+    p=int(input("enter value number: "))
+    a=[3,8]
+    print(a[p])
+except ValueError:
+    print("number is not integer.")
+except IndexError:
+    print("index number error")
+"""
