@@ -589,3 +589,29 @@ except ValueError:
 except IndexError:
     print("index number error")
 """
+
+"""
+#finally clause(it is always excecuted in exception handeling so so it is generally used for doing conclusion task like closing the resources and closing the databases connection of may be ending teh programme)
+try:
+    a=[1,4,7,3,9,5]
+    l=int(input("enter the index: "))
+    print(a[l])
+except:
+    print("some error Occured")
+finally:
+    print("i am always Excecuted")   # we can also print above statement without finally but it cannot use within function
+
+def function():
+    try:
+        a=[1,4,7,3,9,5]
+        l=int(input("enter the index: "))
+        print(a[l])
+        return 1
+    except:
+        print("some error Occured")
+        return 0
+    finally:
+        print("i am always Excecuted")
+x=function()
+print(x)
+"""
