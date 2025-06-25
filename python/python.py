@@ -615,3 +615,12 @@ def function():
 x=function()
 print(x)
 """
+
+"""
+#raise custom error(we can create our own error to check evry steps of code & debugging)
+a=int(input("enter any value between 2 ana 9: "))
+if(a<2 or a>9):
+    raise ValueError("value not in range")
+else:
+    print("ohh! great,value in range")
+"""
